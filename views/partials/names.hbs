@@ -1,0 +1,17 @@
+
+
+    {{#if hasName}}
+    <div class="center">
+        <h1>
+            Alii
+        </h1>
+        <hr>
+        {{#each names}}
+        <p>{{this.name}}</p>
+        {{/each}}
+    </div>
+    {{else}}
+    <div class="center">
+        <h1>not found a name</h1>
+    </div>
+    {{/if}}

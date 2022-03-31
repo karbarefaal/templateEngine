@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("./includes/head.ejs") %>
+
+    <body>
+        <div class="center">
+            <h1>EJS Template engine</h1>
+            <hr>
+            <a href="#" class="<%= path == '/' ? 'active' : '' %> "></a>
+            <%- include("./includes/names.ejs") %> 
+        </div>
+    </body>
+
+</html>

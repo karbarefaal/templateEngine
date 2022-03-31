@@ -1,0 +1,12 @@
+<% if(names.lentgh > 0) { %>
+    <div>
+        <% for(let person of names) {%>
+            <p>
+                <%= person.name %>
+            </p>
+
+            <% } %>
+    </div>
+    <%} else {%>
+        <p>No name in array</p>
+        <% } %>
